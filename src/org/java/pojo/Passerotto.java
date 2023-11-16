@@ -2,10 +2,10 @@ package org.java.pojo;
 
 import org.java.pojo.abs.Animale;
 
-public class Cane extends Animale {
+public class Passerotto extends Animale {
 
 	// constructor
-	public Cane(String nome, int zampe) {
+	public Passerotto(String nome, int zampe) {
 
 		super(nome, zampe);
 	}
@@ -20,13 +20,13 @@ public class Cane extends Animale {
 	@Override
 	public String verso() {
 		
-		return "Bau bau";
+		return "Cip cip";
 	}
 
 	@Override
 	public String mangia() {
 		
-		return "Il mio cibo preferito è l'osso!";
+		return "Il mio cibo preferito sono i semini!";
 	}
 
 }
